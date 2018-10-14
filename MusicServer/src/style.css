@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    background-color: #0C0C0C;
+}
+
+p {
+    white-space: wrap;
+    color: #FFFFFF;
+    font-family: Verdana;
+}
+
+form {
+    display: block;
+}
+
+.topimage {
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%;
+    max-height: 285px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #222222;
+    height: 58;
+}
+
+.topnav .search {
+    float: right;
+}
+
+.topnav input[type=text] {
+    margin-top: 8px;
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+}
+  
+.topnav .search button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #DDDDDD;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+.topnav .search button:hover {
+    background-color: #CCCCCC;
+}
+
+.tabbutton {
+    height: 100%;
+    float: left;
+    color: #F0F0F0;
+    background-color: #555555;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17;
+}
+.tabbutton:hover {
+    background-color: #CCCCCC;
+}
+.tabbutton.active {
+    background-color: #AAAAAA;
+}
+
+.tabcontent {
+    margin-left: 100;
+    margin-right: 100;
+    padding-top: 35;
+    padding-left: 10;
+    padding-right: 10;
+    background-color: #111111;
+}
+
+.tabcontent .artistbutton {
+    width: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    font-size: 17;
+    color: #F0F0F0;
+    text-align: left;
+    background-color: #555555;
+}
+
+.songlist {
+    margin-left: 100;
+    margin-right: 100;
+    max-height: 100%;
+    padding-top: 35;
+    padding-left: 10;
+    padding-right: 10;
+    background-color: #111111;
+}
+
+
+.artistsBackButton {
+    font-size: 35px;
+    cursor: pointer;
+    float: left;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #F0F0F0;
+    background-color: #555555;
+}
+
+.playAllButton {
+    font-size: 18px;
+    margin-left: 10px;
+    float: left;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #F0F0F0;
+    background-color: #555555;
+}
+
+.listcontrol {
+    font-size: 18px;
+    margin: 10px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #F0F0F0;
+    background-color: #555555;
+}
+
+.songdiv {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 10;
+    width: 230px;
+    background-size: 230px;
+    background-color: #0C0C0C;
+}
+
+.songbuttons {
+    border: none;
+    height: 24;
+    width: 33.33333%;
+    outline: none;
+    cursor: pointer;
+    font-size: 17;
+    text-align: center;
+    float: bottom;
+    display: inline-block;
+    color: #F0F0F0;
+    background-color: #555555;
+}
+
+.queue {
+    display: none;
+    float: bottom;
+    position: fixed;
+    bottom: 40;
+    left: 0;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 230px;
+    background-color: #222222;
+    overflow-y: auto;
+}
+
+.queuetop {
+    background-color: #2F2F2F;
+}
+
+.queueshow {
+    float: bottom;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    min-width: 100%;
+    height: 40;
+    background-color: #222222;
+}
+
+.queueshowbutton {
+    display: inline-block;
+    font-size: 24;
+    float: left;
+    margin: 0;
+    height: 40;
+    width: 40;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    color: #F0F0F0;
+    background-color: #111111;
+}
+
+.musicplayer {
+    margin: 0;
+    width: calc(100% - 40px);
+    display: inline-block;
+}
+
+.playlistcontrol {
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17;
+    height: 25px;
+    width: 25px;
+}
